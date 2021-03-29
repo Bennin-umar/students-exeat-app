@@ -25,20 +25,20 @@ function AddStudent() {
             <input type="number" placeholder="student level" onChange={ t=>setLevel(t.target.value)}  className="form-control"/>
             <input type="text" placeholder="Reason" onChange={ t=>setReason(t.target.value)}  className="form-control"/>
             <input type="text" placeholder="Destination" onChange={t => setDestination(t.target.value)} className="form-control" />
-            <div className="form-control">
+            <div className="">
                 <label>
                     Departure date
                 </label>
             <input type="date" onChange={t => setDdate(t.target.value)} className="form-control" />
                 </div>
-                <br/>
-            <div className="form-control">
+                
+            <div className="">
                 <label>
                     Return date
                 </label>
             <input type="date"  onChange={ t=>setRdate(t.target.value)}  className="form-control"/>
                 </div>
-                <br/>
+            
             <input type="text" placeholder="index number" onChange={ t=>setIndexNo(t.target.value)}  className="form-control"/>
             <button className="form-control btn btn-success">ADD</button>
         </form>
